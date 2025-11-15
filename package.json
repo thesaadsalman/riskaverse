@@ -1,0 +1,16 @@
+{
+  "name": "obs-websocket-text-overlay",
+  "version": "1.0.0",
+  "description": "Simple OBS WebSocket server for displaying text overlays via web interface",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["obs", "websocket", "overlay", "text"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "obs-websocket-js": "^5.0.3"
+  }
+}
